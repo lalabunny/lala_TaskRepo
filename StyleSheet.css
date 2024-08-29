@@ -1,0 +1,40 @@
+﻿body {
+    background-image: url("img/bg1.jpg");
+}
+
+img{
+    width:400px;
+    height:200px;
+    margin:auto;
+}
+
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size:70px;
+    color:white;
+}
+
+header{
+    padding-bottom:0px;
+    margin:10px;
+}
+
+div{
+    padding:20px;
+}
+
+ul,p {
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size:35px;
+}
+
+h2,h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-size:50px;
+    color:white;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
