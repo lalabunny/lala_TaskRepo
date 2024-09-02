@@ -5,8 +5,8 @@
 img{
     width:400px;
     height:200px;
-    margin:auto;
-}
+/*    margin:auto;
+*/}
 
 h1 {
     font-family: "Noto Sans", sans-serif;
@@ -20,21 +20,29 @@ header{
 }
 
 div{
-    padding:20px;
+    padding:10px;
+    margin:10px;
 }
 
 ul,p {
     font-family: "Noto Sans", sans-serif;
     color: white;
-    font-size:35px;
+    font-size:20px;
 }
 
 h2,h3 {
     font-family: "Noto Sans", sans-serif;
-    font-size:50px;
+    font-size:30px;
     color:white;
 }
 
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
+}
+
+.home{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
