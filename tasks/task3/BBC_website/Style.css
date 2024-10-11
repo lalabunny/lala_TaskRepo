@@ -142,7 +142,35 @@ header {
     border: none !important;
 }
 
+
+#main {
+    display: flex;
+    margin: 50px;
+}
+
 #sec_main h3 {
     font-size: 30px;
-    text-decoration-line: underline #A91717;
+    text-decoration-line: underline;
+    text-decoration-color: #A91717;
+    margin:50px;
 }
+
+#left_div h1 {
+    color: #276c96;
+    font-size: 40px;
+}
+
+#article_main1{
+    display:flex;
+}
+
+#article_main2 p {
+    width: 75%;
+    /*height: 50px;*/
+    font-size:25px;
+    color:#808080;
+}
+#img_main {
+    width: 25%;
+/*    height: 25%;
+*/}
